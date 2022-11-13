@@ -641,30 +641,37 @@ body {
     height: 8vw;
   }
 
+  .section-about {
+    margin-top: 2.42vw;
+  }
 
   .about-company-info h3 {
     font-size: 1.5vw;
   }
 
   .about-company {
-    width: 40vw;
-    height: 22.92vw;
+    width: 77vw;
+    height: 42vw;
+  }
+
+  .about-company-info {
+    margin: 3.8vw 10.47vw;
   }
 
   .about-company-info h3 {
-    font-size: 3vw;
+    font-size: 3.5vw;
   }
 
   .about-company-info p {
-    line-height: 3.3vw;
-    font-size: 2.05vw;
+    line-height: 3.6vw;
+    font-size: 2.4vw;
   }
 
 
   .about-company-info button {
     width: 30vw;
     height: 6vw;
-    font-size: 1.2vw;
+    font-size: 2.8vw;
   }
 
   .success-item {
@@ -778,11 +785,6 @@ body {
   .ability-list li img {
     width: 8vw;
     height: 8vw;
-  }
-
-  .about-company {
-    width: 50vw;
-    height: 31vw;
   }
 
   .about-company-info {
