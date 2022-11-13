@@ -9,6 +9,7 @@ body {
 
 .section-banner {
   position: relative;
+  font-size: 0;
 }
 
 .banner {
@@ -761,6 +762,15 @@ body {
 }
 
 @media only screen and (max-width: 400px) {
+  .ability-list li {
+    font-size: 3.2vw;
+  }
+
+  .ability-list li img {
+    width: 8vw;
+    height: 8vw;
+  }
+
   .about-company {
     width: 50vw;
     height: 31vw;
