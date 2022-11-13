@@ -1,0 +1,788 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: microsoft yahei;
+}
+
+.section-banner {
+  position: relative;
+}
+
+.banner {
+  width: 100%;
+  height: 36.46vw;
+  object-fit:fill;
+}
+
+.banner-text {
+  display: flex;
+  flex-wrap: wrap;
+  position: absolute;
+  left: 0;
+  top: 12.54vw;
+  padding: 0 10.7vw;
+  font-weight: bold;
+  font-size: 5.2vw;
+}
+
+.banner-text p {
+  transform: skewX(-15deg);
+  color: #fff;
+  text-shadow: 0.5vw 0.5vw #123d70;
+}
+
+.banner-text p:nth-of-type(2n + 1) {
+  margin-right: 2vw;
+}
+
+.banner-text p:nth-of-type(3), 
+.banner-text p:nth-of-type(4) {
+  transform: skewX(-15deg) translateX(7.8125vw);
+}
+
+.ability-list {
+  display: flex;
+  position: absolute;
+  left: 18.73vw;
+  bottom: -5.42vw;
+  list-style: none;
+  width: calc(100% - 37.47vw);
+  height: 10.83vw;
+  background-color: #fff;
+  box-shadow: 0 2px 12px 0 rgba(0, 0, 0, 0.1)
+}
+
+.ability-list li {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-basis: 16.6%;
+  font-size: 0.9vw;
+}
+
+.ability-list li img {
+  width: 3.75vw;
+  height: 3.75vw;
+}
+
+.ability-list li span {
+  margin-top: 1.25vw;
+  color: #fb9324;
+}
+
+.section-about {
+  margin-top: 5.42vw;
+  height: 29.94vw;
+  /* background-color: red; */
+}
+
+.about-title {
+  padding-top: 3.98vw;
+  text-align: center;
+}
+
+.about-title img {
+  width: 10.05vw;
+}
+
+.about-company-info {
+  display: flex;
+  margin: 3.8vw 18.76vw 0 14.065vw;
+}
+
+.about-company {
+  width: 24.48vw;
+  height: 14.064vw;
+  margin-right: 1.875vw;
+}
+
+.about-company-info h3 {
+  margin: 1.4vw 0 1.1vw;
+  font-size: 1.05vw;
+}
+
+.about-company-info p {
+  margin-bottom: 1.7vw;
+  line-height: 1.5vw;
+  font-size: 0.96vw;
+  color: #888;
+}
+
+.about-company-info button {
+  width: 7.8125vw;
+  height: 2.5vw;
+  line-height: 2.5vw;
+  font-size: 0.85vw;
+  color: #fff;
+  border: none;
+  border-radius: 3px;
+  background-color: #0472f6;
+}
+
+.section-success {
+  height: 43.33vw;
+  overflow-y: auto;
+  background-color: #f6f6f6;
+}
+
+.success-title {
+  padding-top: 3.854vw;
+  text-align: center;
+}
+
+.success-title img {
+  width: 10.05vw;
+}
+
+.success-content {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 4.16vw 10.417vw 0;
+}
+
+.success-item {
+  flex-basis: 29.3%;
+  margin-bottom: 1.5vw;
+  color: rgb(34, 62, 108);
+}
+
+.success-item:not(:nth-of-type(3n + 1)) {
+  margin-left: 6%;
+}
+
+.success-item img {
+  width: 100%;
+}
+
+.success-item h3 {
+  margin: 0.9vw 0 1.1vw;
+  font-size: 1.4vw;
+  text-align: center;
+}
+
+.success-item p {
+  display: -webkit-box;
+  font-size: 0.8vw;
+  text-overflow: ellipsis;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+.section-service {
+  height: 40.83vw;
+}
+
+.section-service img,
+.section-cooperate img {
+  width: 100%;
+  height: 100%;
+  object-fit: fill;
+}
+
+.section-board {
+  position: relative;
+  height: 31.458vw;
+}
+
+.section-board > img {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  object-fit: fill;
+}
+
+.board-mask {
+  position: relative;
+  height: 100%;
+  padding-top: 0.1px;
+  background-color: rgba(0, 0, 0, 0.6);
+  z-index: 3;
+}
+
+.board-content {
+  display: flex;
+  margin: 7.29vw 19vw 0 18.49vw;
+  height: 16.67vw;
+}
+
+.board-form {
+  width: 29.17vw;
+  height: 16.67vw;
+  margin-right: 1.98vw;
+  padding: 2.34vw 2.08vw 0;
+  border-radius: 3px;
+  background-color: #fff;
+  box-sizing: border-box;
+}
+
+.board-form > h3 {
+  margin-bottom: 0.94vw;
+  font-size: 1.25vw;
+  color: #747474;
+}
+
+.board-form > p {
+  margin-bottom: 1.66vw;
+  font-size: 0.73vw;
+  color: #979797;
+}
+
+.board-form-content {
+  display: flex;
+}
+
+.form-left-content {
+  flex: 1;
+  margin-right: 1.145vw;
+}
+
+.form-left-content input {
+  width: 11.77vw;
+  height: 1.875vw;
+  padding: 0 0.625vw;
+  margin-bottom: 0.52vw;
+  border: 1px solid #979797;
+  border-radius: 3px;
+  outline: none;
+  box-sizing: border-box;
+}
+
+.form-left-content input:focus {
+  border-color: #0472f6;
+}
+
+.form-right-content {
+  flex: 1;
+}
+
+.form-right-content textarea {
+  width: 100%;
+  height: 4.25vw;
+  margin-bottom: 0.2vw;
+  padding: 0.625vw;
+  outline: none;
+  font-family: inherit;
+  border: 1px solid #979797;
+  border-radius: 3px;
+  box-sizing: border-box;
+}
+
+.form-right-content button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 9.375vw;
+  height: 2.08vw;
+  font-size: 0.85vw;
+  color: #fff;
+  cursor: pointer;
+  border: none;
+  border-radius: 3px;
+  background-color: #0472f6;
+}
+
+.board-pic {
+  display: flex;
+  flex-wrap: wrap;
+  flex: 1;
+  height: 16.67vw;
+}
+
+.board-pic img {
+  width: calc(50% - 0.9375vw);
+  height: 7.8125vw;
+  margin-bottom: 0.9375vw;
+  border: 1px solid #fff;
+  border-radius: 3px;
+}
+
+.board-pic img:nth-of-type(2n + 1) {
+  margin-right: 0.9375vw;
+}
+
+.section-cooperate {
+  height: 28.54vw;
+}
+
+.section-footer {
+  padding-top: 0.1px;
+  color: #fff;
+  background-color: #000;
+}
+
+.footer-content {
+  margin-left: 7.917vw;
+  padding-bottom: 3.542vw;
+}
+
+.footer-content > ul {
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+}
+
+.footer-content > ul > li {
+  margin-top: 3.542vw;
+  flex-basis: 9.48vw;
+}
+
+.footer-content > ul > li:nth-of-type(1) {
+  flex-basis: 33.33vw;
+}
+
+.footer-content > ul > li > span {
+  font-weight: 600;
+  font-size: 1.05vw;
+  letter-spacing: 2px;
+}
+
+.footer-content > ul > li > ul {
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+}
+
+.footer-content > ul > li > ul li {
+  display: flex;
+  align-items: center;
+}
+
+.footer-content > ul > li > ul a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.footer-content > ul > li:nth-of-type(1) > ul li {
+  margin-top: 1.2vw;
+  font-size: 0.85vw;
+}
+
+.footer-content > ul > li:nth-of-type(1) > ul li img {
+  width: 1.615vw;
+  height: 1.77vw;
+  object-fit: fill;
+  margin-right: 0.3vw;
+}
+
+.footer-content > ul > li:not(:nth-of-type(1)) > ul li {
+  margin-top: 1vw;
+  font-size: 0.9vw;
+}
+
+.footer-wx {
+  display: flex;
+  margin-top: 1.1vw;
+}
+
+.footer-wx img {
+  width: 6.823vw;
+  height: 6.823vw;
+  margin-right: 0.3vw;
+}
+
+::-webkit-scrollbar {
+  /*高宽分别对应横竖滚动条的尺寸*/
+  width: 8px;
+  height: 8px;
+}
+
+/*滚动条里面小方块*/
+::-webkit-scrollbar-thumb {
+  border-radius: 10px !important;
+  box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.2) !important;
+  /* 颜色 */
+  background:#b6b6b6!important;
+}
+
+/*滚动条轨道*/
+::-webkit-scrollbar-track {
+  border-radius: 10px !important;
+  box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.2) !important;
+  background: #EDEDED !important;
+}
+
+@media only screen and (max-width: 1200px) {
+  .success-item {
+    flex-basis: 47%;
+  }
+  
+  .success-item:not(:nth-of-type(3n + 1)) {
+    margin-left: 0;
+  }
+
+  .success-item:nth-of-type(2n + 1) {
+    margin-right: 6%;
+  }
+
+  .section-about {
+    height: auto;
+  }
+
+  .about-title {
+    padding-top: 2.98vw;
+  }
+
+  .about-company-info {
+    display: block;
+    margin: 2.8vw 10.47vw;
+    text-align: center;
+  }
+
+  .about-company-info h3 {
+    font-size: 1.5vw;
+  }
+
+  .about-company-info p {
+    line-height: 1.75vw;
+    font-size: 1.2vw;
+  }
+
+  .about-company-info > div > div {
+    text-align: left;
+  }
+
+  .about-company-info button {
+    width: 20vw;
+    height: 4vw;
+    font-size: 1vw;
+  }
+
+  .section-board {
+    height: 70vw;
+  }
+
+  .board-content {
+    display: block;
+    height: auto;
+  }
+
+  .board-form {
+    width: 100%;
+    height: 24vw;
+    margin-right: 0;
+  }
+
+  .board-form > h3 {
+    font-size: 2vw;
+  }
+
+  .board-form > p {
+    font-size: 1.3vw;
+  }
+
+  .form-left-content {
+    margin-right: 2vw;
+  }
+
+  .form-left-content input {
+    width: 22vw;
+    height: 3.4vw;
+    margin-bottom: 0.9vw;
+  }
+
+  .form-right-content textarea {
+    height: 7.6vw;
+  }
+
+  .form-right-content button {
+    width: 13.5vw;
+    height: 3.8vw;
+    font-size: 1.2vw;
+  }
+
+  .board-pic {
+    margin-top: 3vw;
+  }
+
+  .board-pic img:nth-of-type(2n + 1) {
+    margin-right: 3%;
+  }
+
+  .board-pic img {
+    width: calc(50% - 1.5% - 2px);
+    height: 14vw;
+    margin-bottom: 3%;
+  }
+}
+
+@media only screen and (max-width: 900px) {
+  .ability-list {
+    position: relative;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+  }
+
+  .about-company {
+    width: 30vw;
+    height: 18.6vw;
+  }
+
+  .about-company-info h3 {
+    font-size: 1.8vw;
+  }
+
+  .about-company-info p {
+    line-height: 2.6vw;
+    font-size: 1.6vw;
+  }
+
+  .success-item {
+    margin-bottom: 2vw;
+  }
+
+  .success-item h3 {
+    margin: 1.4vw 0;
+    font-size: 2.2vw;
+  }
+
+  .success-item p {
+    font-size: 1.6vw;
+  }
+
+  .section-board {
+    height: 78vw;
+  }
+
+  .board-form {
+    height: 30vw;
+    padding: 3.5vw 3vw 0;
+  }
+
+  .form-left-content input {
+    width: 24vw;
+    height: 4vw;
+    margin-bottom: 1.2vw;
+  }
+
+  .form-right-content textarea {
+    height: 9.2vw;
+    margin-bottom: 0.3vw;
+  }
+
+  .form-right-content button {
+    width: 14vw;
+    height: 4.3vw;
+    font-size: 1.7vw;
+  }
+
+  .footer-content > ul > li:nth-of-type(1) {
+    flex-basis: 50%;
+  }
+
+  .footer-content > ul > li {
+    flex-basis: 25%;
+  }
+
+  .footer-content > ul > li > span {
+    font-size: 2vw;
+  }
+
+  .footer-content > ul > li:nth-of-type(1) > ul li img {
+    width: 2vw;
+    height: 2.1vw;
+  }
+
+  .footer-content > ul > li:nth-of-type(1) > ul li {
+    margin-top: 1.8vw;
+    font-size: 1.6vw;
+  }
+
+  .footer-content > ul > li:not(:nth-of-type(1)) > ul li {
+    font-size: 1.4vw;
+  }
+
+  .footer-wx {
+    margin-top: 1.8vw;
+  }
+
+  .footer-wx img {
+    width: 12vw;
+    height: 12vw;
+    margin-right: 1vw;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .success-item {
+    flex-basis: 100%;
+  }
+  
+  .success-item:not(:nth-of-type(3n + 1)) {
+    margin-left: 0;
+  }
+
+  .ability-list {
+    flex-wrap: wrap;
+    height: 34vw;
+  }
+
+  .ability-list li {
+    flex-basis: 33.3%;
+  }
+
+  .ability-list li img {
+    width: 5.75vw;
+    height: 5.75vw;
+  }
+
+
+  .about-company-info h3 {
+    font-size: 1.5vw;
+  }
+
+  .about-company {
+    width: 40vw;
+    height: 22.92vw;
+  }
+
+  .about-company-info h3 {
+    font-size: 3vw;
+  }
+
+  .about-company-info p {
+    line-height: 3.3vw;
+    font-size: 2.05vw;
+  }
+
+
+  .about-company-info button {
+    width: 30vw;
+    height: 6vw;
+    font-size: 1.2vw;
+  }
+
+  .success-item {
+    margin-bottom: 4vw;
+  }
+
+  .success-item h3 {
+    margin: 1.4vw 0;
+    font-size: 4vw;
+  }
+
+  .success-item p {
+    font-size: 2.3vw;
+  }
+
+  .section-board {
+    height: 107vw;
+  }
+
+  .board-content {
+    margin: 7.29vw 5vw 0 5vw;
+  }
+
+  .board-form {
+    height: 44vw;
+  }
+
+  .board-form > h3 {
+    font-size: 3.8vw;
+    margin-bottom: 1.5vw;
+  }
+
+  .board-form > p {
+    font-size: 2.5vw;
+    margin-bottom: 2.5vw;
+  }
+
+  .form-left-content input {
+    width: 37vw;
+    height: 6.4vw;
+    margin-bottom: 1.8vw;
+  }
+
+  .form-right-content textarea {
+    height: 14.6vw;
+    margin-bottom: 1.1vw;
+  }
+
+  .form-right-content button {
+    width: 18.5vw;
+    height: 6.2vw;
+    font-size: 2.4vw;
+  }
+
+  .board-pic {
+    margin-top: 4vw;
+  }
+
+  .board-pic img {
+    width: calc(50% - 2% - 2px);
+    height: 20vw;
+    margin-bottom: 4%;
+  }
+
+  .board-pic img:nth-of-type(2n + 1) {
+    margin-right: 4%;
+  }
+
+  .footer-content > ul > li:nth-of-type(1) {
+    flex-basis: 100%;
+  }
+
+  .footer-content > ul > li {
+    flex-basis: 50%;
+  }
+
+  .footer-content > ul > li > span {
+    font-size: 3.5vw;
+  }
+
+  .footer-content > ul > li:nth-of-type(1) > ul li img {
+    width: 2.5vw;
+    height: 2.6vw;
+  }
+
+  .footer-content > ul > li:nth-of-type(1) > ul li {
+    margin-top: 2vw;
+    font-size: 2vw;
+  }
+
+  .footer-content > ul > li:not(:nth-of-type(1)) > ul li {
+    font-size: 1.6vw;
+  }
+
+  .footer-wx {
+    margin-top: 2vw;
+  }
+
+  .footer-wx img {
+    width: 15vw;
+    height: 15vw;
+    margin-right: 1vw;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .about-company {
+    width: 50vw;
+    height: 31vw;
+  }
+
+  .about-company-info {
+    margin-bottom: 4vw;
+  }
+
+  .about-company-info h3 {
+    font-size: 3.3vw;
+  }
+
+  .about-company-info p {
+    line-height: 4vw;
+    font-size: 2.2vw;
+    margin-bottom: 3vw;
+  }
+
+  .about-company-info button {
+    width: 36vw;
+    height: 8vw;
+    font-size: 1.4vw;
+  }
+}
