@@ -408,6 +408,10 @@ body {
 }
 
 @media only screen and (max-width: 1200px) {
+  .section-success {
+    height: 60vw;
+  }
+
   .success-item {
     flex-basis: 47%;
   }
@@ -610,6 +614,10 @@ body {
 }
 
 @media only screen and (max-width: 600px) {
+  .section-success {
+    height: 120vw;
+  }
+
   .success-item {
     flex-basis: 100%;
   }
