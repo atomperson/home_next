@@ -634,7 +634,7 @@ body {
 
   .ability-list li {
     flex-basis: 33.3%;
-    font-size: 2.8vw;
+    font-size: 2.9vw;
   }
 
   .ability-list li img {
@@ -665,14 +665,14 @@ body {
 
   .about-company-info p {
     line-height: 3.6vw;
-    font-size: 2.4vw;
+    font-size: 2.5vw;
   }
 
 
   .about-company-info button {
-    width: 30vw;
-    height: 6vw;
-    font-size: 2.8vw;
+    width: 35vw;
+    height: 7.2vw;
+    font-size: 3vw;
   }
 
   .success-item {
@@ -685,11 +685,11 @@ body {
   }
 
   .success-item p {
-    font-size: 2.5vw;
+    font-size: 2.6vw;
   }
 
   .section-board {
-    height: 141vw;
+    height: 150vw;
   }
 
   .board-content {
@@ -697,7 +697,7 @@ body {
   }
 
   .board-form {
-    height: 79vw;
+    height: 88vw;
   }
 
   .board-form > h3 {
@@ -720,17 +720,17 @@ body {
 
   .form-left-content input {
     width: 100%;
-    height: 7.5vw;
+    height: 9vw;
     margin-bottom: 2.5vw;
     padding: 0 1.8vw;
-    font-size: 2.6vw;
+    font-size: 2.8vw;
   }
 
   .form-right-content textarea {
-    height: 18.6vw;
+    height: 22vw;
     margin-bottom: 2.5vw;
     padding: 1.8vw;
-    font-size: 2.6vw;
+    font-size: 2.8vw;
   }
 
   .form-right-content button {
@@ -779,7 +779,7 @@ body {
 
   .footer-content > ul > li:not(:nth-of-type(1)) > ul li {
     margin-top: 1.6vw;
-    font-size: 2.5vw;
+    font-size: 2.6vw;
   }
 
   .footer-wx {
@@ -792,7 +792,7 @@ body {
     margin-right: 2vw;
   }
 }
-
+/* 
 @media only screen and (max-width: 400px) {
   .ability-list li {
     font-size: 3.2vw;
@@ -822,4 +822,4 @@ body {
     height: 8vw;
     font-size: 1.4vw;
   }
-}
+} */
