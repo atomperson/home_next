@@ -1,11 +1,11 @@
-const cookieName = 'gqsl'
-const cookieKey = 'gqsl_token'
+const cookieName = 'gqcq'
+const cookieKey = 'gqcq_token'
 const chavy = init()
 const cookieVal = $request.headers['token']
 if (cookieVal) {
   if (chavy.setdata(cookieVal, cookieKey)) {
-    chavy.msg(`${cookieName}`, '获取Cookie: 成功', '')
-    chavy.log(`[${cookieName}] 获取Cookie: 成功, token: ${cookieVal}`)
+    chavy.msg(`${cookieName}`, '获取token: 成功', '')
+    chavy.log(`[${cookieName}] 获取token: 成功, token: ${cookieVal}`)
   }
 }
 function init() {
